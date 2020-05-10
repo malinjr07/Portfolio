@@ -6388,7 +6388,6 @@ tbody.collapse.in {
 
 .caret:after {
     font-family: 'FontAwesome';
-    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -6454,7 +6453,6 @@ tbody.collapse.in {
     }
 }
 
-.dropdown-menu li {}
 
 .dropdown-menu li:last-child {
     border-bottom: none
@@ -7364,9 +7362,6 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     }
 }
 
-.navbar-nav {
-    /*    margin: 7.5px -15px;*/
-}
 
 .navbar-nav>li>a {
     font-size: 11px;
@@ -7439,8 +7434,6 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     .navbar-nav>li {
         float: left;
     }
-
-    .navbar-nav>li>a {}
 
     .navbar-nav.navbar-right:last-child {
         margin-right: -30px;
@@ -7586,8 +7579,6 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     }
 }
 
-.navbar-default {}
-
 .navbar-default .navbar-brand {
     color: #777;
 }
@@ -7637,19 +7628,11 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     border-color: #ddd;
 }
 
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-    /*    background-color: #ddd;*/
-}
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #888;
 }
 
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-    /*    border-color: #e7e7e7;*/
-}
 
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:hover {
@@ -10261,7 +10244,6 @@ button.close {
 [data-icon]:before {
     font-family: 'et-line';
     content: attr(data-icon);
-    speak: none;
     font-weight: normal;
     font-variant: normal;
     text-transform: none;
@@ -10378,7 +10360,6 @@ you can use the generic selector below, but it's slower:
 .icon-linkedin,
 .icon-dribbble {
     font-family: 'et-line';
-    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -14796,9 +14777,6 @@ body {
     transition: opacity 0.8s cubic-bezier(0.7, 0, 0.3, 1) 0s;
 }
 
-
-@charset "utf-8";
-
 /* ----------------------------------
 
 Name:style.css
@@ -14874,6 +14852,7 @@ a:hover {
 
 img {
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     max-width: 100%;
     height: auto;
 }
@@ -15017,6 +14996,7 @@ dl {
 
 .animated {
     -moz-transition-duration: 0s !important;
+    transition-duration: 0s !important;
 }
 
 /* only ie7, ie9, ie10, ie11 */
@@ -16532,8 +16512,6 @@ nav .container {
     padding: 0 !important;
 }
 
-.simple-dropdown-menu ul li {}
-
 .simple-dropdown-menu ul li a {
     border-bottom: 1px solid rgba(255, 255, 255, 0.06);
     height: 38px;
@@ -16691,7 +16669,7 @@ nav .container {
     opacity: 1;
     display: block;
     display: table-cell;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 
 .static-sticky .navbar-nav>li>.dropdown-menu {
@@ -18194,10 +18172,6 @@ footer ul.list-inline li:first-child {
     z-index: 2;
 }
 
-.parallax-section-main {
-    /* min-height: 700px; */
-}
-
 .parallax-title {
     display: block;
     font-family: "Oswald", sans-serif;
@@ -18360,8 +18334,6 @@ footer ul.list-inline li:first-child {
     margin: 0 4%;
     width: 15%;
 }
-
-.about-onepage {}
 
 .about-onepage-number {
     font-size: 45px;
@@ -18544,8 +18516,6 @@ footer ul.list-inline li:first-child {
 .half-project-small-img .project-header-text {
     margin-top: 10.5%
 }
-
-.project-details ul {}
 
 .project-details ul li {
     border-bottom: 1px solid #e5e5e5;
@@ -20242,8 +20212,6 @@ figure:hover img {
     opacity: .5;
     cursor: url("../images/icon-zoom-white.png"), pointer;
 }
-
-.work-with-title .gallery-img {}
 
 /* portfolio grid - wide */
 .work-2col.wide .grid figcaption {
@@ -24052,7 +24020,7 @@ thead th.first {
 }
 
 .menu-item:last-child {
-    padding-bootom: 0
+    padding-bottom: 0
 }
 
 .menu-item p {
@@ -28675,10 +28643,10 @@ thead th.first {
         line-height: 20px;
     }
 
-    /*  footer  */
+    /*  footer  
     .footer-social {
-        /* margin-top: 20px; */
-    }
+        margin-top: 20px; 
+    } */
 
     /*  text effect  */
     .rotation-highlight {
