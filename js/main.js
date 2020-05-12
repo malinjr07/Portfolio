@@ -6,11 +6,6 @@ var $blog;
 var hashfilter;
 
 $(document).ready(function () {
-
-    var $buythemediv = '<div class="buy-theme xs-display-none"><a href="https://1.envato.market/ryZWR" target="_blank"><span>Purchase Theme</span></a></div><div class="quick-question xs-display-none"><a href="mailto:info@themezaa.com?subject=H-Code Quick Question"><span>Quick Question?</span></a></div>';
-    $('body').append($buythemediv);
-
-
     // Show Animated Counters
     animatecounters();
     
