@@ -1467,6 +1467,21 @@ p.uppercase a:hover {
     background-color: #f4f5f6
 }
 
+.overlay-blue-gradient {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.65;
+    top: 0px;
+    background: rgba(9, 96, 235, 1);
+background: -moz-linear-gradient(45deg, rgba(9, 100, 219, 1) 0%, rgba(212, 228, 239, 1) 100%);
+background: -webkit-linear-gradient(left bottom, right top, color-stop(0%, rgba(9, 100, 219, 1)), color-stop(100%, rgba(212, 228, 239, 1)));
+background: -webkit-linear-gradient(45deg, rgba(9, 100, 219, 1) 0%, rgba(212, 228, 239, 1) 100%);
+background: -o-linear-gradient(45deg, rgba(9, 100, 219, 1) 0%, rgba(212, 228, 239, 1) 100%);
+background: -ms-linear-gradient(45deg, rgba(9, 100, 219, 1) 0%, rgba(212, 228, 239, 1) 100%);
+background: linear-gradient(45deg, rgba(9, 100, 219, 1) 0%, rgba(212, 228, 239, 1) 100%);
+}
+
 .overlay-green {
     position: absolute;
     height: 100%;
