@@ -1840,7 +1840,6 @@ nav .container {
     opacity: 1;
     display: block;
     display: table-cell;
-    vertical-align: middle;
 }
 
 .static-sticky .navbar-nav>li>.dropdown-menu {
