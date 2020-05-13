@@ -1481,18 +1481,20 @@ p.uppercase a:hover {
     background: -ms-linear-gradient(45deg, rgba(9, 100, 219, 1) 0%, rgba(212, 228, 239, 1) 100%);
     background: linear-gradient(45deg, rgba(9, 100, 219, 1) 0%, rgba(212, 228, 239, 1) 100%);
 }
+
 .overlay-red-gradient {
     position: absolute;
     height: 100%;
     width: 100%;
     opacity: 0.65;
     top: 0px;
-    background: -moz-linear-gradient(45deg, rgba(217, 32, 88, 1) 0%, rgba(191, 212, 219, 1) 100%);
-background: -webkit-linear-gradient(left bottom, right top, color-stop(0%, rgba(217, 32, 88, 1)), color-stop(100%, rgba(191, 212, 219, 1)));
-background: -webkit-linear-gradient(45deg, rgba(217, 32, 88, 1) 0%, rgba(191, 212, 219, 1) 100%);
-background: -o-linear-gradient(45deg, rgba(217, 32, 88, 1) 0%, rgba(191, 212, 219, 1) 100%);
-background: -ms-linear-gradient(45deg, rgba(217, 32, 88, 1) 0%, rgba(191, 212, 219, 1) 100%);
-background: linear-gradient(45deg, rgba(217, 32, 88, 1) 0%, rgba(191, 212, 219, 1) 100%);
+    background: rgba(235, 233, 249, 1);
+    background: -moz-linear-gradient(45deg, rgba(235, 233, 249, 1) 0%, rgba(216, 208, 239, 1) 36%, rgba(206, 199, 236, 1) 55%, rgba(193, 191, 234, 1) 75%, rgba(193, 191, 234, 1) 92%, rgba(193, 191, 234, 1) 100%);
+    background: -webkit-linear-gradient(left bottom, right top, color-stop(0%, rgba(235, 233, 249, 1)), color-stop(36%, rgba(216, 208, 239, 1)), color-stop(55%, rgba(206, 199, 236, 1)), color-stop(75%, rgba(193, 191, 234, 1)), color-stop(92%, rgba(193, 191, 234, 1)), color-stop(100%, rgba(193, 191, 234, 1)));
+    background: -webkit-linear-gradient(45deg, rgba(235, 233, 249, 1) 0%, rgba(216, 208, 239, 1) 36%, rgba(206, 199, 236, 1) 55%, rgba(193, 191, 234, 1) 75%, rgba(193, 191, 234, 1) 92%, rgba(193, 191, 234, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(235, 233, 249, 1) 0%, rgba(216, 208, 239, 1) 36%, rgba(206, 199, 236, 1) 55%, rgba(193, 191, 234, 1) 75%, rgba(193, 191, 234, 1) 92%, rgba(193, 191, 234, 1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(235, 233, 249, 1) 0%, rgba(216, 208, 239, 1) 36%, rgba(206, 199, 236, 1) 55%, rgba(193, 191, 234, 1) 75%, rgba(193, 191, 234, 1) 92%, rgba(193, 191, 234, 1) 100%);
+    background: linear-gradient(45deg, rgba(235, 233, 249, 1) 0%, rgba(216, 208, 239, 1) 36%, rgba(206, 199, 236, 1) 55%, rgba(193, 191, 234, 1) 75%, rgba(193, 191, 234, 1) 92%, rgba(193, 191, 234, 1) 100%);
 }
 
 .overlay-green {
